@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wafflet - A bookmarklet to help design on live websites</title>
+	<!-- <link rel="stylesheet" href="css/wafflet.css" /> -->
+	<link rel="stylesheet" href="css/waffletsite.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="hero">
+			<div class="hero-container">
+				<div class="hero-title"></div>
+
+				<div class="hero-subtitle">
+					A simple tool for designing on a live website, <br/>
+					all wrapped up in a bookmarklet.
+				</div>
+
+				<div class="hero-bookmarklet">
+					<span>Give it a try!</span>
+					<a class="hero-bookmarklet-link" href="javascript:(function(a, c, d, e, f) { var b = a.body, s = a[c]('script'), l = a[c]('link'); s[d]('src', f + 'js/wafflet.js'); l[d]('href', f + 'css/wafflet.css'); l[d]('rel','stylesheet'); b[e](s); b[e](l);})(document, 'createElement', 'setAttribute', 'appendChild', 'http://www.harryfino.com/wafflet/');">Wafflet</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--<script src="js/wafflet.js"></script>-->
+</body>
+</html>

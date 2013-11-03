@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f0f0f0;
+	font: 100% Helvetica, Arial, sans-serif;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.hero {
+	width: 800px;
+	height: 350px;
+	line-height: 1.5;
+	background: url(../img/hero.jpg) center center no-repeat;
+	border-bottom: 1px solid #333;
+	color: #fff;
+}
+
+.hero-container {
+	padding: 50px 60px;
+}
+
+.hero-title {
+	width: 228px;
+	height: 77px;
+	margin-bottom: .8125em;
+	background: url(../img/title.png) center center no-repeat;
+	text-shadow: 0 -1px rgba(0,0,0,.3);
+}
+
+.hero-subtitle {
+	font-size: 1.5em;
+	text-shadow: 0 -1px rgba(0,0,0,.3);
+}
+
+.hero-bookmarklet {
+	position: relative;
+	display: inline-block;
+	margin: 1.5em 0;
+	padding: 2px 12px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	font-size: 1em;
+	color: #fff;
+}
+
+.hero-bookmarklet:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+.hero-bookmarklet-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+}
