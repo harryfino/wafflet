@@ -1,0 +1,31 @@
+body {
+	font: 100% Helvectica, Arial, sans-serif;
+	color: #333;
+}
+
+p {
+	line-height: 1.6;
+}
+
+html,
+body,
+.l-fullpage {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	display: block;
+	height: 3em;
+	width: 100%;
+	margin-top: -3em;
+	content: "";
+	text-align: center;
+}
+
+.btn {
+	padding: .5em 1em;
+	border-radius: 8px;
+	background-color: #f00;
+	color: #fff;
+	font-size: 2em;
+	text-decoration: none;
+}
