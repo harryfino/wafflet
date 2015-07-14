@@ -1,6 +1,8 @@
 body {
 	font: 100% Helvectica, Arial, sans-serif;
 	color: #333;
+	padding: 0;
+	margin: 0;
 }
 
 p {
