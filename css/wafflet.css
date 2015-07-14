@@ -4,7 +4,7 @@
 	padding: 10px;
 	border-radius: 3px;
 	background-color: #333;
-	box-shadow: 0 0 8px 0 rgba(0, 0, 0, .5);
+	box-shadow: 0 0 12px -1px rgba(0, 0, 0, .5);
 	font-size: 12px;
 }
 
@@ -32,6 +32,7 @@
 	outline: 0;
 	font-size: 8px;
 	-webkit-button-appearance: none;
+	cursor: pointer;
 }
 
 .waffles-controls button:hover {
